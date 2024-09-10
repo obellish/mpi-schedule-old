@@ -13,14 +13,18 @@
 		"fix:eslint": "yarn lint:eslint --fix",
 		"fix:prettier": "yarn lint:prettier --write"
 	},
+	"overrides": {
+		"@types/react": "npm:types-react@beta",
+		"@types/react-dom": "npm:types-react-dom@beta"
+	},
 	"dependencies": {
-		"react": "^18.3.1",
-		"react-dom": "^18.3.1"
+		"@types/react": "npm:types-react@beta",
+		"@types/react-dom": "npm:types-react-dom@beta",
+		"react": "^19.0.0-beta-26f2496093-20240514",
+		"react-dom": "^19.0.0-beta-26f2496093-20240514"
 	},
 	"devDependencies": {
 		"@eslint/js": "^9.9.0",
-		"@types/react": "^18.3.3",
-		"@types/react-dom": "^18.3.0",
 		"@vitejs/plugin-react-swc": "^3.5.0",
 		"@welldone-software/why-did-you-render": "^8.0.3",
 		"eslint": "^8.24.0",
